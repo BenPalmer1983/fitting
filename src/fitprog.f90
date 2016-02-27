@@ -7,8 +7,9 @@ PROGRAM fitprog
 !   Output
 !
 ! Setup Modules
-  Use kinds          ! data kinds
-  Use msubs          ! mpi module
+  Use kinds          ! from libBP
+  Use env            ! from libBP
+  Use msubs          ! from libBP
   Use loadData       ! load important data
   Use globals        ! declare all globals
   Use initialise     ! initialise program
@@ -33,7 +34,6 @@ PROGRAM fitprog
 !----------------!
   Call readInput()
   Call runFit()
-
 
 !--------------------------------------------------------------------------------------------------------
 ! Finalise program

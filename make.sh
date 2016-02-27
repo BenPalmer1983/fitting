@@ -61,9 +61,9 @@ buildFiles="types.f90 \
 msubs.f90 \
 loadData.f90 \
 globals.f90 \
+output.f90 \
 initialise.f90 \
 input.f90 \
-output.f90 \
 fit.f90 \
 finalise.f90 \
 fitprog.f90"

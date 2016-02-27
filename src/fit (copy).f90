@@ -249,7 +249,7 @@ Module fit
     fitPlotData%dataFile = .false.
     Call plotAdd(fitPlotData, pointsIn, "", "", 1, fitDataRows, 1, 2)
     Call plotAdd(fitPlotData, pointsChart, "", "", 1, chartPointsCount, 1, 2)
-    fitPlotData%fittingSummaryFile = .false.
+    fitPlotData%fittingSummaryFile = .true.
     fitPlotData%gpLinestyle(1) = "points"
     fitPlotData%gpLinestyle(2) = "lines"
     fitPlotData%label(1) = "Data Points"
